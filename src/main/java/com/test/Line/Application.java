@@ -16,7 +16,7 @@ public class Application {
 
 		bitWise.encodeArray(array1, array2);
 		for(int i=0; i<array1.length; i++) {
-			System.out.print("This is the Encoded Array "+array1[i] + " ");
+			System.out.print("This is the Encoded ARRAY "+array1[i] + " ");
 		}
 
 		System.out.println();
