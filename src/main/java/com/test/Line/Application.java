@@ -16,14 +16,14 @@ public class Application {
 
 		bitWise.encodeArray(array1, array2);
 		for(int i=0; i<array1.length; i++) {
-			System.out.print("This is the Encoded ARRAY "+array1[i] + " ");
+			System.out.print(array1[i] + " ");
 		}
 
 		System.out.println();
 
 		bitWise.decodeArray(array1, array1.length);
 		for(int i=0; i<array1.length; i++) {
-			System.out.print("This is decoded array  "+array1[i] + " ");
+			System.out.print(array1[i] + " ");
 		}
 
 	}
